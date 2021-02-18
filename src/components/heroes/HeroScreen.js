@@ -11,12 +11,12 @@ export const HeroScreen = ({history}) => {
   }
 
   const {
-    id,
     superhero,
     publisher,
     alter_ego,
     first_appearance,
     characters,
+    image
   } = hero;
 
 
@@ -34,7 +34,7 @@ export const HeroScreen = ({history}) => {
     <div className="row mt-5 animate__animated animate__backInLeft">
       <div className="col-4">
         <img
-          src={`/assets/heroes/${id}.jpg`}
+          src={image}
           alt={superhero}
           className="img-thumbnail"
         />

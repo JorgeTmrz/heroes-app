@@ -8,6 +8,7 @@ export const HeroCard = ({
   alter_ego,
   first_appearance,
   characters,
+  image
 }) => {
   return (
     <div className="card ms-3" style={{ maxWidth: 540 }}>
@@ -15,7 +16,7 @@ export const HeroCard = ({
         <div className="col-md-4">
           <img
             alt={superhero}
-            src={`./assets/heroes/${id}.jpg`}
+            src={image}
             className="card-img"
           />
         </div>
