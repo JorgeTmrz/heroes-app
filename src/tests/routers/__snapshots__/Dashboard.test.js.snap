@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard test cases should displayy itself correctly 1`] = `
+<Fragment>
+  <Navbar />
+  <div
+    className="container mt-2"
+  >
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/marvel"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/hero/:heroId"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/dc"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/search"
+      />
+      <Route
+        component={[Function]}
+        path="/"
+      />
+    </Switch>
+  </div>
+</Fragment>
+`;

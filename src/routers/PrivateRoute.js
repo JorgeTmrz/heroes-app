@@ -8,7 +8,7 @@ export const PrivateRoute = ({
     ...rest // the rest of the args passed to the component
 }) => {
 
-    const {location: {pathname: lastVisitedPage}} = rest;
+    const {location: {pathname: lastVisitedPage} = "/"} = rest;
     localStorage.setItem('lastPath', lastVisitedPage) // setting the las visited page on the localstorage
 
     return (
